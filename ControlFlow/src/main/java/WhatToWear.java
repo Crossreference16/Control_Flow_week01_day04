@@ -39,7 +39,7 @@ public class WhatToWear {
                 System.out.println("T-shirt weather, amazing! Wear your best colours!");
             }
         }
-        else if (weather.equals("snow")) {
+        else if (weather.equals("snowy")) {
                 System.out.println("Wear gloves, a hat and a THICK coat. BRRR!");
             }
 
@@ -49,5 +49,15 @@ public class WhatToWear {
 
 
 
+
     }
 }
+
+//alternetive way that includes &&(AND) and ||(OR):
+//if (weather.equals("rainy") && temp <= 10) {
+//     System.out.println("Wear waterproof coat");
+//} else if (weather.equals("snowy") || temp <=5) {
+//     System.out.println();
+//} else if (weather.equals() || temp > 18) {
+//     System.out.println("wear sunscreen");
+// }
